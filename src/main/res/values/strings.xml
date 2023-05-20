@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Ignite</string>
+    <string name="januari_2023">Januari 2023</string>
+    <string name="desember_2022">Desember 2022</string>
+    <string name="_2022">2022</string>
+    <string name="_2023">2023</string>
+    <string name="februari_2023">Februari 2023</string>
+    <string name="april_2023">April 2023</string>
+    <string name="maret_2023">Maret 2023</string>
+    <string name="renungan_hari_ini">Renungan hari ini</string>
+    <string name="empty">empty</string>
+    <string name="judul">Judul</string>
+    <string name="baca_renungan">Baca Renungan</string>
+    <string name="tonton_video">Tonton Video</string>
+    <string name="keluar">Keluar</string>
+    <string name="tanggal_renungan">tanggal renungan</string>
+    <string name="date">date</string>
+    <string name="ayat">ayat</string>
+    <string name="title">title</string>
+    <string name="content">content</string>
+    <string name="video">Video</string>
+    <string name="yakin_mau_keluar">Yakin Mau Keluar?</string>
+    <string name="tidak">tidak</string>
+    <string name="ya">ya</string>
+    <string name="title1">Title</string>
+    <string name="nytb">NYTB</string>
+    <string name="galeri_kalvari">Galeri Kalvari</string>
+    <string name="hari_ini">Hari ini</string>
+    <string name="semua_renungan">Semua Renungan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cari">Cari Berdasarkan Tanggal</string>
+    <string name="nama_yesus_terus_bersuara">Nama Yesus Terus Bersuara</string>
+    <string name="nada">nada</string>
+    <string name="bait">bait</string>
+    <string name="koor">koor</string>
+    <string name="_1">1</string>
+    <string name="baitl">bait :</string>
+    <string name="koorl">Koor :</string>
+    <string name="jumat_agung_paskah_2023"><![CDATA[Jumat Agung & Paskah 2023]]></string>
+    <string name="ayat_jagung2023">Sebab itu, hai anakku, jadilah kuat oleh kasih karunia dalam Kristus Yesus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

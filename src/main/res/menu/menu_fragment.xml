@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/hari_ini"
+        android:icon="@drawable/today"
+        android:title="@string/hari_ini"/>
+
+    <item
+        android:id="@+id/all"
+        android:icon="@drawable/all"
+        android:title="@string/semua_renungan"/>
+
+
+</menu>

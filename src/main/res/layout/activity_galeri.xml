@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Galeri">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/birupeteng"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/comeback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tgl_renungan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="@string/galeri_kalvari"
+            android:textColor="@color/white" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/card_jumat_2023"
+        android:layout_below="@id/tbdt"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bgcihuy">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_jd_jumat_agung2023"
+            android:text="Jumat Agung"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montheavy"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_jd_paskah2023"
+            android:text="Paskah 2023"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montheavy"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/tv_jd_jumat_agung2023"/>
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="900dp"
+            android:id="@+id/paskah2023"
+            android:src="@drawable/paskah3"
+            android:layout_marginLeft="215dp"
+            android:alpha=".6"
+            />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

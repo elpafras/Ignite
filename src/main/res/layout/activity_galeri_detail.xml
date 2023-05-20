@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".galeri_detail">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/birupeteng"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/comeback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tgl_renungan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="@string/galeri_kalvari"
+            android:textColor="@color/white" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrview"
+        android:layout_below="@id/tbdt">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:text="@string/jumat_agung_paskah_2023"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montheavy"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tema"
+                android:text="|Kasih yang menguatkan|"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/title"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/scripture"
+                android:text="2 Timotius 2 : 1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kiona"
+                android:layout_below="@id/tema"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ayatdisplay"
+                android:text="@string/ayat_jagung2023"
+                android:textColor="@color/black"
+                android:fontFamily="@font/kiona"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/scripture"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="160dp"
+                android:id="@+id/jg1"
+                android:src="@drawable/paskah1"
+                android:layout_below="@id/ayatdisplay"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="5dp"/>
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="220dp"
+                android:id="@+id/jg2"
+                android:src="@drawable/paskah7"
+                android:layout_below="@id/ayatdisplay"
+                android:layout_toEndOf="@id/jg1"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_alignParentEnd="true"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="280dp"
+                android:id="@+id/jg3"
+                android:src="@drawable/jagung2"
+                android:layout_below="@id/jg1"
+                android:layout_marginTop="13dp"
+                android:layout_marginStart="5dp"/>
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="230dp"
+                android:id="@+id/jg4"
+                android:src="@drawable/jagong"
+                android:layout_below="@id/jg2"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@id/jg3"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="12dp"/>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:id="@+id/jg5"
+                android:src="@drawable/jagung1"
+                android:layout_below="@id/jg4"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <ImageView
+                android:layout_width="135dp"
+                android:layout_height="183dp"
+                android:id="@+id/jg6"
+                android:src="@drawable/jagung3"
+                android:layout_below="@id/jg5"
+                android:layout_marginStart="10dp"/>
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="180dp"
+                android:id="@+id/jg7"
+                android:src="@drawable/jagunglagi"
+                android:layout_below="@id/jg5"
+                android:layout_toEndOf="@id/jg6"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="10dp"/>
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:id="@+id/jg8"
+                android:layout_below="@id/jg6"
+                android:src="@drawable/paskah5"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="8dp"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="220dp"
+                android:id="@+id/jg9"
+                android:src="@drawable/paskah4"
+                android:layout_toEndOf="@id/jg8"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/jg7"
+                android:layout_alignParentEnd="true"
+                android:paddingBottom="10dp"/>
+            
+            <ImageView
+                android:layout_width="194dp"
+                android:layout_height="100dp"
+                android:id="@+id/jg10"
+                android:src="@drawable/paskah3"
+                android:layout_below="@id/jg8"
+                android:paddingBottom="10dp"/>
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
